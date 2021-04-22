@@ -1,0 +1,14 @@
+.NavigationItem{
+    list-style: none;
+    text-align: center;
+    padding: 3px;
+    box-sizing: border-box;
+    box-shadow: 2px 3px #ccc;
+    color: #ff8303;
+    font-size: 1.3em;
+}
+.NavigationItem:hover{
+    background-color: #ff8303;
+    color: white;
+    box-shadow: 3px 3px #f0e3ca;
+}

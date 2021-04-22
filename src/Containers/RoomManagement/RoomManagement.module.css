@@ -1,0 +1,24 @@
+.RoomManagement h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.Controls{
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.Find{
+    margin-left: 10%;
+}
+.Find input, button{
+    border-radius: 5px;
+    border: 1px solid blue;
+}
+.RoomDisplay{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5vh;
+    min-height: 60vh;
+    border: 3px solid rgb(173, 88, 88);
+    border-radius: 10px;
+}
