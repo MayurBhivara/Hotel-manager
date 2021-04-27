@@ -1,0 +1,21 @@
+.Room{
+    width: fit-content;
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    height: fit-content;
+    margin: 10px auto;
+}
+.reserved{
+    border: 2px solid orange;
+    box-shadow: 3px 3px darkorange;
+}
+.occupied{
+    border: 2px solid red;
+    box-shadow: 3px 3px maroon;
+}
+.vacant{
+    border: 2px solid green;
+    box-shadow: 3px 3px darkgreen;
+}

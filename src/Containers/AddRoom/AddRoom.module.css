@@ -1,0 +1,29 @@
+.AddForm{
+    position: absolute;
+    top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+    width: 50%;
+    height: 50vh;
+    margin: auto auto;
+    padding: 20px ;
+    box-sizing: border-box;
+    box-shadow: 5px 5px #ccc;
+    background-color: #eee;
+    align-items: center;
+    justify-content: center;
+}
+.AddForm form div{
+    text-align: left;
+    width: 50%;
+    justify-content: space-between;
+    margin: 10px auto;
+    align-items: center;
+}
+@media(max-width:500px) {
+    .AddForm{
+        width: 80%;
+    }
+}
